@@ -6,4 +6,4 @@ def floor(n: float) -> float:
     """A function that takes a float n
     as arguments and returns the floor of the float.
     """
-    return n.__floor__()
+    return int(n)
